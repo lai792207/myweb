@@ -1,0 +1,185 @@
+<!-- 宣告網頁文件是HTML5格式 -->
+<!doctype html>
+<!-- 網頁所屬地區的語言 -->
+<html lang="zh-Hant-TW">
+  <!-- 檔頭、SEO/GEO/AEO   -->
+  <head>
+    <!-- 文字編碼 -->
+    <meta charset="utf-8">
+    <!-- RWD響應式網站 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 網站作者(擁有者)、品牌名稱 -->
+    <meta name="author" content="島行日記">
+    <!-- 網頁描述、網頁內容濃縮、可透過ChatGPT協助完成 -->
+    <meta name="description" content="出國旅遊前必看！外交部將旅遊警示分為灰、黃、橙、紅四級，助您評估風險並建議辦理「旅外國人動態登錄」。國內旅遊則強調選擇合法旅宿、留意中央氣象署特報與交通安全。無論國內外，掌握安全分級與行前準備，搭配保險規劃，才能確保旅程平安圓滿。">
+    <!-- 網頁編輯器 -->
+    <meta name="generator" content="Visual Studio Code">
+    <!-- 網頁關鍵字、網頁內容提取、可透過ChatGPT協助提取 -->
+    <meta name="keywords" content="島行日記,外交部旅遊警示,旅遊安全須知,出國登錄,國內旅遊安全,各級警示含義,旅外國人動態登錄,旅遊平安險,合法旅宿查詢,交通安全,氣象特報">
+    <!-- favicon品牌Logo -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- 網頁標題、包含網站名稱和網頁名稱 -->
+    <title>島行日記-旅遊安全</title>
+    <!-- Bootstrap雲端CSS外部檔 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- 自訂的CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- GoogleIconFonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- GA追蹤碼 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQ7512QR5M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZQ7512QR5M');
+    </script>
+
+  </head>
+  <!-- 網頁本文 -->
+  <body class="bg-clolr-blue">
+     <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">島行日記</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="infor.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-162248.url.tw" target="_blank">留言發問</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>      
+     </header>
+     <main>
+      <!-- 輪播圖外層 -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <!-- 指示器 -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <!-- 輪播圖片 -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/index/CKS-Memorial-Hall.webp" class="d-block w-100" alt="藍瓦白牆的中正紀念堂牌樓宏偉莊嚴，雕刻細緻典雅，屋簷層層相疊，展現傳統中式建築之美，象徵歷史文化與紀念意義。" title="藍瓦白牆的中正紀念堂牌樓宏偉莊嚴，雕刻細緻典雅，屋簷層層相疊，展現傳統中式建築之美，象徵歷史文化與紀念意義。" aria-label="中正紀念堂">
+            </div>
+            <div class="carousel-item">
+              <img src="images/index/food.webp" class="d-block w-100" alt="木板上擺著香脆夾餅，旁有青檸與多款醬料，後方放著兩瓶Tabasco辣椒醬，畫面色彩濃郁，營造出美味誘人的餐桌氛圍。" title="木板上擺著香脆夾餅，旁有青檸與多款醬料，後方放著兩瓶Tabasco辣椒醬，畫面色彩濃郁，營造出美味誘人的餐桌氛圍。" aria-label="台灣美食">
+            </div>
+            <div class="carousel-item">
+              <img src="images/index/sunmoonlake.webp" class="d-block w-100" alt="湖面平靜倒映青山，碼頭停泊多艘遊船，遊客準備搭船遊湖，右側涼亭臨水而立，景色悠閒宜人，呈現日月潭寧靜秀麗的湖畔風光。" title="湖面平靜倒映青山，碼頭停泊多艘遊船，遊客準備搭船遊湖，右側涼亭臨水而立，景色悠閒宜人，呈現日月潭寧靜秀麗的湖畔風光。" aria-label="日月潭">
+            </div>
+          </div>
+          <!-- 控制器 -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-5 order-md-0 mt-5">
+              <div class="card">
+              <img src="images/safe/traveler.webp" alt="旅人手持護照與行李箱靜候，準備開啟一場探索未知的冒險旅程。" title="旅人手持護照與行李箱靜候" aria-label="旅人手持護照與行李箱靜候">
+              </div>
+            </div>
+            <div class="col-md-7 order-md-1 mt-5">
+              <div class="card-body">
+                <h2 class=""><i class="material-icons iconsTitle" >error</i>外交部領事事務局-旅遊警示</h2>
+                <p>針對出國旅遊安全，外交部將**旅遊警示**分為四個等級，幫助國人評估前往該地區的風險。以下是各級警示的具體含義：<br> ⚠️ 外交部旅遊警示分級表<br> **第一級**:<span class="text-muted">**灰色提醒**</span><br> **提醒注意：** 該地區治安或環境稍有不穩定。建議民眾出發前多加留意當地新聞與環境變化。<br> **第二級** :<span class="text-warning">**黃色注意**</span> **特別注意：** 當地安全狀況堪慮，可能存在區域性的不穩定。建議民眾評估是否非必要前往，若前往應高度戒備。<br> **第三級**:<span class="text-alert">**橙色避免**</span>**避免非必要旅行：** 該國或特定地區局勢高度緊張，恐有安全威脅。強烈建議國人避免前往進行觀光或非緊急商務。<br>**第四級**:<span class="text-danger"> **紅色警示**</span>**不宜前往，儘速離境：** 當地處於戰爭、動亂或極高傳染病風險等極度危險狀態。建議國人不宜前往，已在當地者應儘速撤離。<br>💡 實用小建議<br> * **出國登錄：** 無論前往哪一級警示地區，出發前建議先到外交部領事事務局網站進行「**旅外國人動態登錄**」，若當地發生緊急狀況，政府能第一時間提供協助。<br> * **保險確認：** 第三級（橙色）與第四級（紅色）警示通常會影響旅遊平安險的承保內容或理賠判定，出發前務必與保險公司確認。</p>
+              </div>
+            </div>
+          </div>
+        <hr>
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-5 order-md-0 mt-5">
+              <div class="card">
+              <img src="images/safe/鹿港南靖宮.webp" alt="展現了彰化鹿港南靖宮與鄰近洋樓建築，融合傳統廟宇與近代西式風格，藍天紅磚映襯出古鎮深厚的歷史底蘊。" title="彰化鹿港南靖宮與鄰近洋樓建築" aria-label="彰化鹿港南靖宮與鄰近洋樓建築">
+              </div>
+            </div>
+            <div class="col-md-7 order-md-1 mt-5">
+              <div class="card-body">
+                 <h2 class=""><i class="material-icons iconsTitle" >add_a_photo</i>國內旅遊安全須知</h2>
+                <p>國內旅遊應以「安全」為首要，出發前確認氣象與交通狀況，規劃完整行程並準備常備藥物。山區活動注意落石與蜂蛇，海濱水域應於有救生員處戲水並穿著救生衣。團體旅遊勿擅自離隊、保管好貴重物品，並遵守各項交通與遊樂設施安全規範。<br> 以下為詳細的國內旅遊安全須知：
+                  <ul>
+                    <li><span class="text-alert"> 出發前準備</span> : 行前請確認天候交通，備妥藥品證件並入住合法旅館。</li>
+                    <li><span class="text-alert">交通安全 </span>: 無論自駕或搭乘大眾運輸，均應落實行前檢查、遵守交通規則，並熟記逃生資訊與留意視線死角以維護安全。</li>
+                    <li><span class="text-alert">風景區與戶外活動 </span>: 水陸活動應優先選擇有救生員之合法場域，保持對自然環境（潮汐、落石）的警覺，並嚴格遵守設施操作規範。</li>
+                    <li><span class="text-alert">個人與團體安全</span> : 離隊請務必告知同伴並留聯絡方式，隨時妥善保管財務不露白，並注意飲食衛生以維護自身健康。</li>
+                  </ul><br>若遇緊急狀況，請立即尋求領隊協助或撥打報案電話。
+                </p>
+              </div>
+            </div>
+          </div>
+        <hr>
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-5 order-md-0 mt-5">
+              <div class="card">
+              <img src="images/safe/travelsave.webp" alt="遊客背著紅灰色後背包，在異國街道邊專注捕捉美景，與身後的歐洲街景及行駛的小車共同交織出充滿探險氣息的旅途瞬間。" title="遊客背著紅灰色後背包，在異國街道邊專注捕捉美景" aria-label="遊客背著紅灰色後背包，在異國街道邊專注捕捉美景">
+              </div>
+            </div>
+            <div class="col-md-7 order-md-1 mt-5">
+              <div class="card-body">
+                <h2 class=""><i class="material-icons iconsTitle" >report_problem</i>旅遊安全錦曩</h2>
+                <p>國內旅遊雖然環境熟悉、交通便利，但為了確保行程圓滿，以下幾個維度的安全防範建議您特別留意：<ol>
+                  <li>自然環境與氣候安全<ul>
+                    <li>即時氣象觀測： 出發前務必確認中央氣象署的特報。台灣地形複雜，山區容易有午後雷陣雨或濃霧。</li>
+                    <li>離線地圖與路況： 進入通訊較差的偏遠景點（如拉拉山、司馬庫斯等）前，先下載 Google 離線地圖，並確認導航路徑是否包含產業道路，避免因導航誤差受困。</li></ul></li>
+                  <li>交通與移動安全 <ul>
+                    <li>長途駕車檢查： 出發前檢查胎壓、五油三水。若行經九彎十八拐的蘇花公路或北宜公路，應維持適當車距，並注意大客車的內輪差。</li>
+                    <li>公共運輸轉乘： 善用官方交通 App（如「公路客運」或「台鐵e訂通」）掌握誤點資訊，避免在人煙稀少處等待末班車。</li></ul></li>
+                  <li>住宿與個資安全<ul>
+                  <li>合法旅宿查詢： 訂房前可至「臺灣旅宿網」確認該飯店或民宿是否領有登記證，這關乎消防安全與合規逃生路線。</li>
+                  <li>入住環境檢查： 進入房間後，先檢查房門鎖扣是否完好，並確認最近的緊急逃生梯位置。</li>
+                  <li>分散風險： 雖然台灣治安優良，但熱門觀光區（如夜市、老街）人潮擁擠時，仍應注意隨身包包，建議將現金與身分證件分開存放。</li> </ul>
+                </ol></p>
+              </div>
+            </div>
+          </div>
+        <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top" class="btn btn-danger">回到頁面頂端</a></p>
+        <p>島行日記&copy;2026</p>
+      </footer>
+     </main>
+    <!-- Bootstrap雲端JS外部檔 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

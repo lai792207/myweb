@@ -1,0 +1,73 @@
+:root,
+[data-bs-theme=dark]{--bs-dark-rgb: 40, 40, 60;}
+
+/* 利用根元素作為標籤選取器,改變整體頁面的文字大小 */
+body {background: #aaddee;}
+
+html {font-size: 20px;}
+
+/* 標題一級的文字大小 */
+h1{font-size: 2rem}
+/* 標題二級的文字設定,選取器是標籤,影響整體 */
+h2{font-size: 1.8rem;font-weight: 800;color: rgb(39, 102, 229);}
+/* 選取器識類別,影響個別,需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 800; color: rgb(255, 0,195);}
+
+/* 駝峰式命名，與其他CSS衝突 */
+.iconsTitle{
+    font-size: 2rem !important;
+    color: rgb(39, 102, 229);
+    vertical-align: text-bottom;
+}
+
+/* li{color: green;} */
+
+/* 單獨針對項目/編號清單的符號色彩,優化前 
+ul li::marker{color: #ff8800;}
+ol li::marker{color: #ff8800;}*/
+
+/* 單獨針對項目/編號清單的符號色彩,優化後方式一 
+ul li::marker,ol li::marker{color: #ff8800;}*/
+ 
+/* 單獨針對項目/編號清單的符號色彩,優化後方式一 */
+li::marker{color: #ff8800;}
+
+/* ChatGPT:旅遊安全頁面的旅遊警示的四個等級文字色彩 */
+.text-muted{
+    color: #666666;/* 灰色,表示次要、輕微的資訊 */
+}
+.text-warning{
+    color: #ffdd00;/* 黃色,表示提醒、警示 */
+}
+.text-alert{
+    color: #ff8800;/* 橙色,表示注意或強調 */
+}
+.text-danger{
+    color: #cc0000;/* 紅色，表示錯誤、危險 */
+}
+
+/* 保留card類別,新增樣式拿掉邊框 */
+.card-no-border{
+    border: none;
+    background: none;
+}
+
+/* 字體樣式粗細,100-900 */
+/* 類別:個別套用 */
+.text-boldest{
+    font-weight: 900;
+}
+/* 複合:整體套用 */
+#notes h5{
+    font-weight: 900;
+}
+
+.imgCut{
+     width: 100%;/*原圖尺寸、父層寬度 */
+    height: 500px;
+    clip:rect(0px,0px,290px,0px);
+    object-fit: cover;
+}
+.textIndent{
+     text-indent: 2rem;/*文字首行縮排 */
+}
